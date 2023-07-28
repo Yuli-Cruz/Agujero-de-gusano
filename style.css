@@ -1,0 +1,397 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #171a34;
+    background-image: url(/images/6d411c4be57f2683584635b73173ecb5.jpg);
+    background-size:contain ;
+    background-repeat: repeat;
+}
+
+/*********************************/
+/*****************************/
+/*Navegación*/
+
+
+header{
+    width: 100%;
+    height: 55px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #0d0709;
+    padding-bottom: 20px;
+}
+
+header nav .nav-right-section{
+    list-style: none;
+    width: 800px;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    height: auto;
+
+}
+
+nav .nav-right-section a{
+    text-decoration: none;
+    margin-right: 50px;
+    color: #87B1AE;
+}
+
+nav .nav-right-section a:hover{
+    text-decoration: underline;
+}
+
+main .main-intro{
+    text-align: center;
+    padding-top: 10px;
+    width: 100%;
+    height: 400px;
+    background-color: #461c3d;
+    background-image: url(https://d7lju56vlbdri.cloudfront.net/var/ezwebin_site/storage/images/_aliases/img_1col/noticias/dos-grupos-de-fisicos-teoricos-se-adentran-en-los-agujeros-de-gusano/8865364-6-esl-MX/Dos-grupos-de-fisicos-teoricos-se-adentran-en-los-agujeros-de-gusano.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Pangolin', cursive;
+    font-size: 20px;
+    color: #460664;
+}
+
+main .main-intro h1{
+    font-size: 80px;
+    color: #E6E4F7;
+    text-shadow: #0d0709;
+}
+
+main .main-intro .title{
+    margin-bottom: 5px;
+}
+
+main .main-intro .intro{
+    background-color: #f594c6c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    
+}
+
+main .ciencias{
+    background-color: #b9baeeb4;
+    padding: 20px;
+    margin:  auto;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+
+main h2{
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
+    text-align: center;
+    color: #171a34;
+}
+
+main h3{
+    font-size: 30px;
+}
+
+main .teorias{
+    background-color: #a8c7cfe3;
+    padding: 20px;
+    margin: 20px auto;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+
+main .gallery{
+    background-color: #b9baeeb4;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+main .galeria_1{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+main .galeria_1  a{
+    text-decoration: none;
+}
+
+main .galeria_1 a:hover{
+    text-decoration: underline;
+}
+
+main .galeria_1 .img_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+main .galeria_1 .img_1 img{
+    width: 410px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-color: #F1B2BD;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 10px;
+}
+
+main .galeria_1 .gallery_text p {
+    text-align: center;
+}
+
+main .galeria_1 .gallery_text a{
+    color: black;
+}
+
+/****************/
+/*Imagen 2*/
+
+main .galeria_1 .img_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+main .galeria_1 .img_2 img{
+    width: 400px;
+    border-radius: 10px;
+    border-color: #BF9EED;
+    border-style: solid;
+    border-width: 10px;
+}
+
+main .galeria_1 .img_3{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+main .galeria_1 .img_3 img{
+    width: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+    border-color: #F1B2BD;
+    border-style: solid;
+    border-width: 10px;
+}
+
+main .galeria_2{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+main .galeria_2 p{
+    text-align: center;
+}
+
+main .galeria_2 a{
+    text-decoration: none;
+    color:black
+}
+
+main .galeria_2 a:hover{
+    text-decoration: underline;
+}
+
+main .galeria_2 .img_4{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+main .galeria_2 .img_4 img{
+    width: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    border-color: #BF9EED;
+    border-style: solid;
+    border-width: 10px;
+}
+
+main .galeria_2 .img_5{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+main .galeria_2 .img_5 img{
+    width: 400px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    border-color: #F1B2BD;
+    border-style: solid;
+    border-width: 10px;
+}
+
+main .galeria_2 .img_6{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+main .galeria_2 .img_6 img{
+    width: 400px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+    border-color: #BF9EED;
+    border-style: solid;
+    border-width: 10px;
+}
+
+/**********************************/
+/****Datos curiosos****/
+
+main .datos{
+    background-color: #a8c7cfe3;
+    padding: 20px;
+    margin: 20px auto;
+    font-family: 'Dosis', sans-serif;
+}
+
+main .datos h2{
+    text-align: center;
+}
+
+main .datos .cajas{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    margin: 0 auto;
+    
+}
+
+main .datos div{
+    border-radius: 10px;
+}
+
+main .datos .cajas .dato_1{
+    background-color: #407cd9;
+    width: 200px;
+    height: 400px;
+    margin: 20px;
+    padding: 15px;
+}
+
+main .datos .cajas .dato_1 h3{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+main .datos .cajas .dato_1 p{
+    margin: 15px;
+    text-align: justify;
+}
+
+
+main .datos .cajas .dato_2{
+    background-color: #C8C1FE;
+    margin: 20px;
+    width: 200px;
+    height: 400px;
+    padding: 15px;
+}
+
+main .datos .cajas .dato_2 h3{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+main .datos .cajas .dato_2 p{
+    margin: 15px;
+    text-align: justify;
+}
+
+main .datos .cajas .dato_3{
+    background-color: #407cd9;
+    margin: 20px;
+    width: 200px;
+    height: 400px;
+    padding: 15px;
+}
+
+main .datos .cajas .dato_3 h3{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+main .datos .cajas .dato_3 p{
+    margin: 15px;
+    text-align: justify;
+}
+
+main .datos .cajas .dato_4{
+    background-color: #C8C1FE;
+    margin: 20px;
+    width: 200px;
+    height: 400px;
+    padding: 15px;
+}
+
+main .datos .cajas .dato_4 h3{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+main .datos .cajas .dato_4 p{
+    margin: 15px;
+    text-align: justify;
+}
+
+/***************************/
+/*Películas*/
+
+main .peliculas{
+    background-color: #b9baeeb4;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+
+main .peliculas ul{
+    list-style: none;
+}
+
+main .peliculas div{
+    background-color: #87B1AE;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px;
+}
